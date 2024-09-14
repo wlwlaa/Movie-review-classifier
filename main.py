@@ -32,7 +32,7 @@ def predict(review):
     if score == 4 or score == 7 and output[pred] < 0.6:
         return 'This review is most likely neutral'
     else:
-        return f'This review is negative. Possible review rating: {score}' if score <= 4 else f'This review is positive. Possible review rating: {score}'
+        return f'This review is negative. Possible review rating: {score}/10' if score <= 4 else f'This review is positive. Possible review rating: {score}/10'
 
     
 gr.Interface(
