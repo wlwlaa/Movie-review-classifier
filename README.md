@@ -11,7 +11,7 @@
 Для успешного запуска проекта необходимы:
 - Python 3.12.x и выше
 - Необходимые зависимости
-- Файл `.pth` с весами модели
+- Файл `.pth` с [весами модели](https://drive.google.com/file/d/1-y-78IHiP5Pg5LoAs4ZCV7EnaWpH8k6J/view?usp=sharing)
 
 ### Подготовка окружения
 
@@ -30,6 +30,12 @@ cd Movie-review-classifier
 3. Установите зависимости:
 ```bash
 pip install -r requirements.txt
+```
+
+4. Создайде папку `models` и поместите в нее загруженные веса модели:
+```bash
+mkdir models
+cp /Users/$USER/Downloads/model_7000_Loss_0.09370.pth ./Movie-review-classifier/models/model_7000_Loss_0.09370.pth
 ```
 
 ### Запуск проекта
