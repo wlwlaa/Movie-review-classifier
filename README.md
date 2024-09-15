@@ -35,7 +35,7 @@ pip install -r requirements.txt
 4. Создайде папку `models` и поместите в нее загруженные веса модели:
 ```bash
 mkdir models
-cp /Users/$USER/Downloads/model_7000_Loss_0.09370.pth ./Movie-review-classifier/models/model_7000_Loss_0.09370.pth
+cp /Users/$USER/Downloads/model_7000_Loss_0.09370.pth ./models/model_7000_Loss_0.09370.pth
 ```
 
 ### Запуск проекта
